@@ -18,7 +18,7 @@ ISOGL:YES
 #Data Files
 
 #ABILITY:mpc_abilities.lst
-DATACONTROL:PA_Datacontrols.lst
+DATACONTROL:PA_datacontrols.lst
 ABILITYCATEGORY:PA_abilitycategories.lst
 ABILITY:PA_abilities_class.lst
 ABILITY:PA_abilities_race.lst
