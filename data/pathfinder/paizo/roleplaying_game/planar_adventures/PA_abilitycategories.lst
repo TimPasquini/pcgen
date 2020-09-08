@@ -2,8 +2,12 @@
 SOURCELONG:Planar Adventures	SOURCESHORT:PA	SOURCEWEB:https://paizo.com/products/btpya1am	SOURCEDATE:2018-06
 #insert your data here
 
+#Class & Archetype
 ABILITYCATEGORY:Planar Scout Terrain	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:PlanarScoutTerrain											DISPLAYLOCATION:Class Features
 
+
+#Racial
+ABILITYCATEGORY:Aphorite Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Aphorite Racial Trait.AphoriteRacialTrait		PLURAL:Aphorite Racial Traits	DISPLAYLOCATION:Racial Abilites
 
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
 #your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.

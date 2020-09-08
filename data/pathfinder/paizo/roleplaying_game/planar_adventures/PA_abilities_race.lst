@@ -29,7 +29,7 @@ SOURCELONG:Planar Adventures	SOURCESHORT:PA	SOURCEWEB:https://paizo.com/products
 #==============
 
 ###Block Racial Abilities
-Racial Traits ~ Aphorite	CATEGORY: Internal
+Racial Traits ~ Aphorite	CATEGORY:Internal
 
 ###Block Racial Defaults
 +2 Strength +2 Intelligence, -2 Dexterity	KEY:Aphorite ~ Ability Scores			CATEGORY:Special Ability	TYPE:RacialTraits.Aphorite Racial Trait.Aphorite Racial Default.Racial Ability Scores			VISIBLE:DISPLAY	!PREFACT:1,ABILITIES,Aphorite_ReplaceAbilityScores=true																			DESC:	Aphorites are strong and intelligent, but move and react somewhat stiffly																		BONUS:STAT|STR|2|TYPE=Racial	BONUS:STAT|INT|2|TYPE=Racial	BONUS:STAT|DEX|-2|TYPE=Racial																																																													SOURCEPAGE:p.225
