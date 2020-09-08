@@ -39,7 +39,7 @@ SOURCELONG:Planar Adventures	SOURCESHORT:PA	SOURCEWEB:https://paizo.com/products
 
 #insert your data here
 
-Aphorite	STARTFEATS:1	FACT:BaseSize|M	SIZE:M	MOVE:Walk,30	REACH:5	LEGS:2	HANDS:2	AUTO:LANG|Common	CHOOSE:LANGAUTO:Celestial|Infernal	LANGBONUS:Abyssal,Aquan,Auran,Celestial,Ignan,Infernal,Terran	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Aphorite	RACETYPE:Outsider	RACESUBTYPE:Native	TYPE:Outsider.PC	SOURCEPAGE:224	FACT:BaseSize|M
+Aphorite	STARTFEATS:1	FACT:BaseSize|M	SIZE:M	MOVE:Walk,30	REACH:5	LEGS:2	HANDS:2	AUTO:LANG|Common	CHOOSE:LANG|Celestial|Infernal	LANGBONUS:Abyssal,Aquan,Auran,Celestial,Ignan,Infernal,Terran	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Aphorite	RACETYPE:Outsider	RACESUBTYPE:Native	TYPE:Outsider.PC	SOURCEPAGE:224	FACT:BaseSize|M
 
 
 #Languages: Aphorites speak Common and either Celestial or Infernal. An aphorite with a high Intelligence score can choose from the following as bonus languages: Abyssal, Aquan, Auran, Celestial, Ignan, Infernal, or Terran.
