@@ -18,8 +18,10 @@ ISOGL:YES
 #Data Files
 
 #ABILITY:mpc_abilities.lst
-#ABILITYCATEGORY:mpc_abilitycategories.lst
+DATACONTROL:PA_Datacontrols.lst
+ABILITYCATEGORY:PA_abilitycategories.lst
 ABILITY:PA_abilities_class.lst
+ABILITY:PA_abilities_race.lst
 #BIOSET:mpc_biosettings.lst
 #CLASS:mpc_classes.lst
 #COMPANIONMOD:mpc_companionmods.lst
@@ -34,7 +36,7 @@ ABILITY:PA_abilities_class.lst
 #ARMORPROF:mpc_profs_armor.lst
 #SHIELDPROF:mpc_profs_shield.lst
 #WEAPONPROF:mpc_profs_weapon.lst
-#RACE:mpc_races.lst
+RACE:PA_races.lst
 #SKILL:mpc_skills.lst
 #SPELL:mpc_spells.lst
 #TEMPLATE:mpc_templates.lst
