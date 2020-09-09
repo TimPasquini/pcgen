@@ -84,7 +84,7 @@ Quibble (Su)												CATEGORY:Internal			TYPE:Ganzi Oddity Bonus													
 Spell-Like Ability (Sp)											CATEGORY:Internal			TYPE:Ganzi Oddity Bonus																																											DESC:Ganzis whose chaotic influences rise from regions other than the Maelstrom or its inhabitants often manifest an oddity that duplicates the effects of a specific spell. Such ganzis gain one of the following spell-like abilities, usable once per day at a caster level equal to the ganzi’s HD: alter self, blur, detect thoughts, hideous laughter, minor image, shatter, or spider climb.				STACK:NO	MULT:YES		CHOOSE:SPELLS|Alter Self|Blur|Detect Thoughts|Hideous Laughter|Minor Image|Shatter|Spider Climb
 Weaponplay (Ex)												CATEGORY:Internal			TYPE:Ganzi Oddity Bonus																																											DESC:Ganzis with lineages that link to the valkyries manifest their heritage in their skill in combat. Such ganzis are always proficient with all simple and martial weapons, and they can qualify for feats normally available only to fighters (such as Weapon Specialization) even if they don’t have any fighter class levels.					AUTO:WEAPONPROF|TYPE.Simple|TYPE.Martial
 
-#Weapon play needs fighter class requirement bypass
+#Pool descriptions aren't getting to character sheet; Weapon play needs fighter class requirement bypass; I think Spell Like Ability needs a caster level defined somehow; Figure out how to get CHA and TL expressed as numbers in Chaos Champion
 
 
 
