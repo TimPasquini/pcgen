@@ -1,0 +1,123 @@
+#  Fri Nov 16 19:52:40 2018 -- reformated by PCGen PrettyLST v6.08.00
+# CVS $Revision: $ $Author: $ -- Fri Jun 17 21:51:56 2016 -- reformated by PCGen PrettyLST v6.06.00
+
+###--------------------------------------------###
+##	New Formula Parser Support Mechanisms	##
+###--------------------------------------------###
+
+
+# ------------------------------
+# Aphorite
+# ------------------------------
+
+###Block: Grant Abilities
+# Ability Name						Define						Ability
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	DEFINE:Aphorite_ReplaceAbilityScores|0				ABILITY:Aphorite Racial Trait|AUTOMATIC|Aphorite ~ Ability Scores|PREVAREQ:Aphorite_ReplaceAbilityScores,0
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	DEFINE:Aphorite_ReplaceSize|0						ABILITY:Aphorite Racial Trait|AUTOMATIC|Aphorite ~ Size|PREVAREQ:Aphorite_ReplaceSize,0
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	DEFINE:Aphorite_ReplaceSpeed|0					ABILITY:Aphorite Racial Trait|AUTOMATIC|Aphorite ~ Speed|PREVAREQ:Aphorite_ReplaceSpeed,0
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	DEFINE:Aphorite_ReplaceVision|0					ABILITY:Aphorite Racial Trait|AUTOMATIC|Aphorite ~ Vision|PREVAREQ:Aphorite_ReplaceVision,0
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	DEFINE:Aphorite_ReplaceSkilled|0					ABILITY:Aphorite Racial Trait|AUTOMATIC|Aphorite ~ Skilled|PREVAREQ:Aphorite_ReplaceSkilled,0
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	DEFINE:Aphorite_ReplaceAphoriteMagic|0				ABILITY:Aphorite Racial Trait|AUTOMATIC|Aphorite ~ Aphorite Magic|PREVAREQ|PREVAREQ:Aphorite_ReplaceAphoriteMagic,0
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	DEFINE:Aphorite_ReplaceCrystallineDust|0				ABILITY:Aphorite Racial Trait|AUTOMATIC|Aphorite ~ Crystalline Dust|PREVAREQ:Aphorite_ReplaceCrystallineDust,0
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	DEFINE:Aphorite_ReplaceAphoriteResistances|0			ABILITY:Aphorite Racial Trait|AUTOMATIC|Aphorite ~ Aphorite Resistances|PREVAREQ:Aphorite_ReplaceAphoriteResistances,0
+
+
+###Block: Remove Abilities
+# Ability Name						Modify VAR
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceReplaceSkilled|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.AphoriteSkilled
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceAphoriteMagic|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.AphoriteAphoriteMagic
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceCrystallineDust|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.AphoriteCrystallineDust
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceAphoriteResistances|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.AphoriteAphoriteResistances
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceStability|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.AphoriteStability
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceSpeed|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.AphoriteSpeed
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceVision|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.AphoriteRacialVision
+
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceAbilityScores|1|TYPE=Boolean|PREFACT:1,ABILITIES,Aphorite_ReplaceAbilityScores=true
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceSize|1|TYPE=Boolean|PREFACT:1,ABILITIES,Aphorite_ReplaceSize=true
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceSpeed|1|TYPE=Boolean|PREFACT:1,ABILITIES,Aphorite_ReplaceSpeed=True
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceVision|1|TYPE=Boolean|PREFACT:1,ABILITIES,Aphorite_ReplaceVision=True
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceSkilled|1|TYPE=Boolean|PREFACT:1,ABILITIES,Aphorite_ReplaceSkilled=True
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceAphoriteMagic|1|TYPE=Boolean|PREFACT:1,ABILITIES,Aphorite_ReplaceAphoriteMagic=True
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceCrystallineDust|1|TYPE=Boolean|PREFACT:1,ABILITIES,Aphorite_ReplaceCrystallineDust=True
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceAphoriteResistances|1|TYPE=Boolean|PREFACT:1,ABILITIES,Aphorite_ReplaceAphoriteResistances=True
+CATEGORY=Internal|Racial Traits ~ Aphorite.MOD	BONUS:VAR|Aphorite_ReplaceStability|1|TYPE=Boolean|PREFACT:1,ABILITIES,Aphorite_ReplaceStability=True
+
+
+# ------------------------------
+# Duskwalker
+# ------------------------------
+
+###Block: Grant Abilities
+# Ability Name					Define						Ability
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	DEFINE:Duskwalker_ReplaceAbilityScores|0			ABILITY:Duskwalker Racial Trait|AUTOMATIC|Duskwalker ~ Ability Scores|PREVAREQ:Duskwalker_ReplaceAbilityScores,0
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	DEFINE:Duskwalker_ReplaceSize|0				ABILITY:Duskwalker Racial Trait|AUTOMATIC|Duskwalker ~ Size|PREVAREQ:Duskwalker_ReplaceSize,0
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	DEFINE:Duskwalker_ReplaceSpeed|0				ABILITY:Duskwalker Racial Trait|AUTOMATIC|Duskwalker ~ Speed|PREVAREQ:Duskwalker_ReplaceSpeed,0
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	DEFINE:Duskwalker_ReplaceVision|0				ABILITY:Duskwalker Racial Trait|AUTOMATIC|Duskwalker ~ Vision|PREVAREQ:Duskwalker_ReplaceVision,0
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	DEFINE:Duskwalker_ReplaceSkilled|0				ABILITY:Duskwalker Racial Trait|AUTOMATIC|Duskwalker ~ Skilled|PREVAREQ|PREVAREQ:Duskwalker_ReplaceSkilled,0
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	DEFINE:Duskwalker_ReplaceGhostHunter|0			ABILITY:Duskwalker Racial Trait|AUTOMATIC|Duskwalker ~ Ghost Hunter|PREVAREQ:Duskwalker_ReplaceGhostHunter,0
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	DEFINE:Duskwalker_ReplaceWardAgainstCorruption|0	ABILITY:Duskwalker Racial Trait|AUTOMATIC|Duskwalker ~ Ward Against Corruption|PREVAREQ:Duskwalker_ReplaceWardAgainstCorruption,0
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	DEFINE:Duskwalker_ReplaceWeaponFamiliarity|0	ABILITY:Duskwalker Racial Trait|AUTOMATIC|Duskwalker ~ Weapon Familiarity|PREVAREQ:Duskwalker_ReplaceWeaponFamiliarity,0
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	DEFINE:Duskwalker_ReplaceLanguages|0			ABILITY:Duskwalker Racial Trait|AUTOMATIC|Duskwalker ~ Languages|PREVAREQ:Duskwalker_ReplaceLanguages,0
+
+###Block: Remove Abilities
+# Ability Name					Modify VAR
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceVision|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.DuskwalkerRacialVision
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceSkilled|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.DuskwalkerSkilled
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceGhostHunter|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.DuskwalkerGhostHunter
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceWardAgainstCorruption|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.DuskwalkerWardAgainstCorruption
+
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceAbilityScores|1|TYPE=Boolean|PREFACT:1,ABILITIES,Duskwalker_ReplaceAbilityScores=true
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceSize|1|TYPE=Boolean|PREFACT:1,ABILITIES,Duskwalker_ReplaceSize=true
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceSpeed|1|TYPE=Boolean|PREFACT:1,ABILITIES,Duskwalker_ReplaceSpeed=true
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceVision|1|TYPE=Boolean|PREFACT:1,ABILITIES,Duskwalker_ReplaceVision=true
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceSkilled|1|TYPE=Boolean|PREFACT:1,ABILITIES,Duskwalker_ReplaceSkilled=true
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceGhostHunter|1|TYPE=Boolean|PREFACT:1,ABILITIES,Duskwalker_ReplaceGhostHunter=true
+CATEGORY=Internal|Racial Traits ~ Duskwalker.MOD	BONUS:VAR|Duskwalker_ReplaceWardAgainstCorruption|1|TYPE=Boolean|PREFACT:1,ABILITIES,Duskwalker_ReplaceWardAgainstCorruption=true
+
+
+# ------------------------------
+# Ganzi
+# ------------------------------
+
+###Block: Grant Abilities
+# Ability Name						Define						Ability
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceAbilityScores|0		ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Ability Scores|PREVAREQ:Gnome_ReplaceAbilityScores,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceSize|0			ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Size|PREVAREQ:Gnome_ReplaceSize,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceSpeed|0			ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Speed|PREVAREQ:Gnome_ReplaceSpeed,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceVision|0			ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Vision|PREVAREQ:Gnome_ReplaceVision,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceDefensiveTraining|0	ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Defensive Training|PREVAREQ:Gnome_ReplaceDefensiveTraining,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceGnomeMagic|0		ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Gnome Magic|PREVAREQ:Gnome_ReplaceGnomeMagic,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceHatred|0			ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Hatred|PREVAREQ:Gnome_ReplaceHatred,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceIllusionResistance|0	ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Illusion Resistance|PREVAREQ:Gnome_ReplaceIllusionResistance,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceKeenSenses|0		ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Keen Senses|PREVAREQ:Gnome_ReplaceKeenSenses,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceObsessive|0		ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Obsessive|PREVAREQ:Gnome_ReplaceObsessive,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceWeaponFamiliarity|0	ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Weapon Familiarity|PREVAREQ:Gnome_ReplaceWeaponFamiliarity,0
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	DEFINE:Gnome_ReplaceLanguages|0		ABILITY:Gnome Racial Trait|AUTOMATIC|Gnome ~ Languages|PREVAREQ:Gnome_ReplaceLanguages,0
+
+###Block: Remove Abilities
+# Ability Name						Modify VAR
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceVision|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeRacialVision
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceDefensiveTraining|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeDefensiveTraining
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceGnomeMagic|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeMagic
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceHatred|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeHatred
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceIllusionResistance|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeIllusionResistance
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceKeenSenses|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeSenses
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceObsessive|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeObsessive
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceWeaponFamiliarity|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeWeaponFamiliarity
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceLanguages|1|TYPE=Boolean|PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeRacialLanguage
+
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceAbilityScores|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceAbilityScores=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceSize|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceSize=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceSpeed|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceSpeed=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceVision|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceVision=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceDefensiveTraining|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceDefensiveTraining=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceGnomeMagic|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceGnomeMagic=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceHatred|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceHatred=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceIllusionResistance|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceIllusionResistance=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceKeenSenses|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceKeenSenses=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceObsessive|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceObsessive=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceWeaponFamiliarity|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceWeaponFamiliarity=true
+#CATEGORY=Internal|Racial Traits ~ Gnome.MOD	BONUS:VAR|Gnome_ReplaceLanguages|1|TYPE=Boolean|PREFACT:1,ABILITIES,Gnome_ReplaceLanguages=true
+
+
+

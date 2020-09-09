@@ -22,6 +22,7 @@ DATACONTROL:PA__datacontrols.lst
 ABILITYCATEGORY:PA_abilitycategories.lst
 ABILITY:PA_abilities_class.lst
 ABILITY:PA_abilities_race.lst
+ABILITY:PA_abilities_globalvar.lst
 #BIOSET:mpc_biosettings.lst
 #CLASS:mpc_classes.lst
 #COMPANIONMOD:mpc_companionmods.lst
