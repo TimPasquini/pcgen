@@ -28,6 +28,21 @@ FACTDEF:ABILITY|Duskwalker_ReplaceSkilled					DATAFORMAT:BOOLEAN	REQUIRED:NO	SEL
 FACTDEF:ABILITY|Duskwalker_ReplaceGhostHunter				DATAFORMAT:BOOLEAN	REQUIRED:NO	SELECTABLE:NO	VISIBLE:YES	DISPLAYNAME:Replace Duskwalker Ghost Hunter			EXPLANATION:Replaces the Ghost Hunter Racial Trait
 FACTDEF:ABILITY|Duskwalker_ReplaceWardAgainstCorruption		DATAFORMAT:BOOLEAN	REQUIRED:NO	SELECTABLE:NO	VISIBLE:YES	DISPLAYNAME:Replace Duskwalker Ward Against Corruption	EXPLANATION:Replaces the Ward Against Corruption Racial Trait
 
+#=====
+#Ganzi
+#=====
+
+FACTDEF:ABILITY|Ganzi_ReplaceAbilityScores				DATAFORMAT:BOOLEAN	REQUIRED:NO	SELECTABLE:NO	VISIBLE:YES	DISPLAYNAME:Replace Ganzi Ability Scores			EXPLANATION:Replaces the Ability Scores
+FACTDEF:ABILITY|Ganzi_ReplaceSize						DATAFORMAT:BOOLEAN	REQUIRED:NO	SELECTABLE:NO	VISIBLE:YES	DISPLAYNAME:Replace Ganzi Size				EXPLANATION:Replaces the Medium Racial Trait
+FACTDEF:ABILITY|Ganzi_ReplaceSpeed						DATAFORMAT:BOOLEAN	REQUIRED:NO	SELECTABLE:NO	VISIBLE:YES	DISPLAYNAME:Replace Ganzi Speed				EXPLANATION:Replaces the Base Speed Racial Trait
+FACTDEF:ABILITY|Ganzi_ReplaceVision						DATAFORMAT:BOOLEAN	REQUIRED:NO	SELECTABLE:NO	VISIBLE:YES	DISPLAYNAME:Replace Ganzi Vision				EXPLANATION:Replaces the Darkvision Racial Trait
+FACTDEF:ABILITY|Ganzi_ReplaceReplaceMaelstromResistance		DATAFORMAT:BOOLEAN	REQUIRED:NO	SELECTABLE:NO	VISIBLE:YES	DISPLAYNAME:Replace Ganzi Maelstrom Resistance		EXPLANATION:Replaces the Maelstrom Resistance Racial Trait
+FACTDEF:ABILITY|Ganzi_ReplaceSkilled					DATAFORMAT:BOOLEAN	REQUIRED:NO	SELECTABLE:NO	VISIBLE:YES	DISPLAYNAME:Replace Ganzi Skilled				EXPLANATION:Replaces the Skilled Racial Trait
+FACTDEF:ABILITY|Ganzi_ReplaceGanziOddity					DATAFORMAT:BOOLEAN	REQUIRED:NO	SELECTABLE:NO	VISIBLE:YES	DISPLAYNAME:Replace Ganzi Ganzi Oddity			EXPLANATION:Replaces the Ganzi Oddity Racial Trait
+
+
+
+
 
 
 # This file represents a conversion mechanism for items that were previously

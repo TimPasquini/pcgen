@@ -7,6 +7,7 @@ SOURCELONG:Planar Adventures	SOURCESHORT:PA	SOURCEWEB:https://paizo.com/products
 
 Aphorite	STARTFEATS:1	FACT:BaseSize|M	SIZE:M	MOVE:Walk,30	REACH:5	LEGS:2	HANDS:2	AUTO:LANG|Common		CHOOSE:LANG|Celestial|Infernal		LANGBONUS:Abyssal,Aquan,Auran,Celestial,Ignan,Infernal,Terran				ABILITY:Internal|AUTOMATIC|Racial Traits ~ Aphorite		RACETYPE:Outsider	RACESUBTYPE:Native	TYPE:Outsider.PC	SOURCEPAGE:224	FACT:BaseSize|M
 Duskwalker	STARTFEATS:1	FACT:BaseSize|M	SIZE:M	MOVE:Walk,30	REACH:5	LEGS:2	HANDS:2	AUTO:LANG|Common		CHOOSE:LANG|Abyssal|Celestial|Infernal	LANGBONUS:Abyssal,Celestial,Draconic,Dwarven,Elven,Halfling,Infernal,Protean		ABILITY:Internal|AUTOMATIC|Racial Traits ~ Duskwalker		RACETYPE:Outsider	RACESUBTYPE:Native	TYPE:Outsider.PC	SOURCEPAGE:231	FACT:BaseSize|M
+Ganzi		STARTFEATS:1	FACT:BaseSize|M	SIZE:M	MOVE:Walk,30	REACH:5	LEGS:2	HANDS:2	AUTO:LANG|Common		CHOOSE:LANG|Abyssal|Celestial|Protean	LANGBONUS:Aklo,Aquan,Auran,Ignan,Sylvan,Terran							ABILITY:Internal|AUTOMATIC|Racial Traits ~ Ganzi		RACETYPE:Outsider	RACESUBTYPE:Native	TYPE:Outsider.PC	SOURCEPAGE:224	FACT:BaseSize|M
 
 
 
