@@ -8,10 +8,11 @@ ABILITYCATEGORY:Planar Scout Terrain	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	F
 
 #Racial Abilities
 #Aphorite
-ABILITYCATEGORY:Aphorite Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Aphorite Racial Trait.AphoriteRacialTrait		PLURAL:Aphorite Racial Traits				DISPLAYLOCATION:Racial Abilites
+ABILITYCATEGORY:Aphorite Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Aphorite Racial Trait.AphoriteRacialTrait		PLURAL:Aphorite Racial Traits				DISPLAYLOCATION:Racial Abilities
 ABILITYCATEGORY:Aphorite Skilled Craft Bonus	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:Aphorite Skilled Craft Bonus				PLURAL:Aphorite Skilled Craft Bonuses		DISPLAYLOCATION:Racial Abilities
 
 #Duskwalker
+ABILITYCATEGORY:Duskwaker Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Duskwalker Racial Trait.DuskwalkerRacialTrait	PLURAL:Duskwaler Racial Traits			DISPLAYLOCATION:Racial Abilities
 
 
 #Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up

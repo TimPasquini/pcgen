@@ -49,7 +49,7 @@ Skilled Craft Bonus												CATEGORY:Internal			TYPE:Aphorite Skilled Craft B
 #Duskwalker
 #===============
 ###Block Racial Abilities
-#Racial Traits ~ Duskwalker	CATEGORY:Internal
+Racial Traits ~ Duskwalker	CATEGORY:Internal
 
 ###Block Racial Defaults
 +2 Dexterity –2 Constitution +2 Wisdom		KEY:Duskwalker ~ Ability Scores		CATEGORY:Special Ability	TYPE:RacialTraits.Aphorite Racial Trait.Aphorite Racial Default.Racial Ability Scores			VISIBLE:DISPLAY	!PREFACT:1,ABILITIES,Duskwalker_ReplaceAbilityScores=true																			DESC:Duskwalkers are agile and wise, but their bodies are fragile.																																		BONUS:STAT|DEX|2|TYPE=Racial	BONUS:STAT|CON|-2|TYPE=Racial	BONUS:STAT|WIS|2|TYPE=Racial																																																													SOURCEPAGE:p.231
