@@ -13,11 +13,13 @@ ABILITYCATEGORY:Planar Scout Terrain	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	F
 #=======
 ABILITYCATEGORY:Aphorite Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Aphorite Racial Trait.AphoriteRacialTrait		PLURAL:Aphorite Racial Traits				DISPLAYLOCATION:Racial Abilities
 ABILITYCATEGORY:Aphorite Skilled Craft Bonus	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:Aphorite Skilled Craft Bonus				PLURAL:Aphorite Skilled Craft Bonuses		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Aphorite Language			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AphoriteLanguageTrait					PLURAL:Aphorite Languages				DISPLAYLOCATION:Racial Abilities
 
 #==========
 #Duskwalker
 #==========
 ABILITYCATEGORY:Duskwalker Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Duskwalker Racial Trait.DuskwalkerRacialTrait	PLURAL:Duskwalker Racial Traits			DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Duskwalker Language			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:DuskwalkerLanguageTrait					PLURAL:Duskwalker Languages				DISPLAYLOCATION:Racial Abilities
 
 
 #=====
@@ -25,6 +27,7 @@ ABILITYCATEGORY:Duskwalker Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:N
 #=====
 ABILITYCATEGORY:Ganzi Racial Trait			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Ganzi Racial Trait.GanziRacialTrait			PLURAL:Ganzi Racial Traits				DISPLAYLOCATION:Racial Abilities
 ABILITYCATEGORY:Ganzi Oddity Bonus			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Ganzi Oddity Bonus						PLURAL:Ganzi Oddity Bonuses				DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Ganzi Language			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:GanziLanguageTrait						PLURAL:Ganzi Languages					DISPLAYLOCATION:Racial Abilities
 
 
 
