@@ -3,8 +3,12 @@
 #insert your data here
 
 #Class & Archetype
-ABILITYCATEGORY:Planar Scout Terrain	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal			TYPE:PlanarScoutTerrain											DISPLAYLOCATION:Class Features
-ABILITYCATEGORY:Planar Bond Bonus		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Planar Bond Bonus			PLURAL:Planar Bond Bonuses				DISPLAYLOCATION:Class Features
+#Alchemist Archetype
+
+
+#Ranger Archtype
+ABILITYCATEGORY:Planar Scout Favored Plane	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:PlanarScoutPlane											DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Planar Bond Bonus			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Planar Bond Bonus			PLURAL:Planar Bond Bonuses				DISPLAYLOCATION:Class Features
 
 
 #Racial Abilities
